@@ -72,3 +72,6 @@ h2{
     font-size: 32px;
     margin-top: 10px;
 }
+.weather{
+    display: none;
+}
