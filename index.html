@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="box">
+        <div class="search">
+            <label for="searching"></label>
+            <input class="search-input" type="text" id="searching" placeholder="ENTER THE CITY NAME" required>
+            <button class="glass"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="weather">
+            <img class="cloudy" src="images/clouds.png" alt="">
+            <h1 class="temp">12°C</h1>
+            <h2 class="city">India</h2>
+            <div class="detail">
+                <div class="hum">
+                    <img class="hum-img" src="images/humidity.png" alt="">
+                    <div class="hum-detail">
+                        <p class="humidity">43%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="wind-box">
+                    <img class="wind-img" src="images/wind.png" alt="">
+                    <div class="wind-detail">
+                        <p class="wind">1.34 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!--https://api.openweathermap.org/data/2.5/weather?q=lucknow&appid=80e6eef29df3986877a18383b5ad04e5&units=metric-->
