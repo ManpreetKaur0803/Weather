@@ -37,6 +37,12 @@ body{
     border: transparent;
     text-decoration: none;
 }
+.error{
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+}
 .cloudy{
     margin-top: 10px;
     margin-bottom: 0;
